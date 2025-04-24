@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gessing</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <h1>Retrieve the Knowledge</h1>
+    <main>
+        <div class="book-container">
+            <div class="book" id="easy">
+                <div class="cover"></div>
+                <div class="spine">Easy</div>
+            </div>
+            <div class="book" id="medium">
+                <div class="cover"></div>
+                <div class="spine">Medium</div>
+            </div>
+            <div class="book" id="hard">
+                <div class="cover"></div>
+                <div class="spine">Hard</div>
+            </div>
+        </div>
+        <div class="riddle-container">
+            <p>Here is your riddle <span>(level <span id="level"></span>)</span></p>
+            <div class="riddle">Click a book to start</div>
+            <label for="answer">Answer: 1...20</label>
+            <input type="number" max="20" min="1" id="answer" style="display: none;">
+            <div id="result"></div>
+            <p id="pnbrtries">Remaining tries: <span class="nbr-tries">5</span></p>
+        </div>
+    </main>
+</body>
+</html>
