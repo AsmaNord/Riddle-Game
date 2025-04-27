@@ -5,3 +5,6 @@ This is a fun, interactive riddle game built purely with vanilla JavaScript — 
 The goal behind this project was to challenge myself and practice core JavaScript skills while building something that’s not just engaging, but also meaningful.
 
 🧠 Think you can solve them all?
+
+## Demo
+https://asmanord.github.io/Riddle-Game/
